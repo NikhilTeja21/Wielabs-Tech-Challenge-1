@@ -1,0 +1,28 @@
+{
+  "name": "challenge-1",
+  "version": "1.0.0",
+  "description": "In this challenge, you will build a toy version of our data downloading and processing pipeline. Your task is to download a large `.tar.gz` file, containing lists of organizations and customers, decompress and unzip the CSVs within, parse them, and add them to a SQLite database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "fast-csv": "^5.0.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "knex": "^3.1.0",
+    "mkdirp": "^3.0.1",
+    "sqlite3": "^5.1.7",
+    "tar": "^6.2.1",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/knex": "^0.16.1",
+    "@types/node": "^20.12.2",
+    "@types/tar": "^6.1.11"
+  }
+}
